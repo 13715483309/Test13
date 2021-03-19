@@ -1,0 +1,18 @@
+import requests
+import json
+
+class Base_Api():
+
+    session = requests.session()
+
+    def __init__(self):
+        self.ip = 'http://121.42.15.146:9090'
+        self.headers = {
+            'X-Requested-With': 'XMLHttpRequest',
+        }
+
+    def mtx_post(self,path,data):
+        url = self.ip + path
+        res = self.session.post(url=url,headers=self.headers,data=data)
+        r_j = json.loads(res.text)
+        return r_j

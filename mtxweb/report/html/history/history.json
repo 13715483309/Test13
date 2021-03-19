@@ -1,0 +1,79 @@
+{
+  "3c7461c01245064afead512515a3afa1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1955263c1c427a5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616036653482,
+        "stop" : 1616036718242,
+        "duration" : 64760
+      }
+    } ]
+  },
+  "7a30bc9b7470a6758c6d917f357b67d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2dfb333c812704e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616036637757,
+        "stop" : 1616036653479,
+        "duration" : 15722
+      }
+    } ]
+  },
+  "3454b25487d38c25782d96a37fe80a3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7dc7628700ac7e1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616036595873,
+        "stop" : 1616036621133,
+        "duration" : 25260
+      }
+    } ]
+  },
+  "f7f3b76f220cbd3c30a929f6b4f6e7a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e4c238ba9481be9",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not callable",
+      "time" : {
+        "start" : 1616036623151,
+        "stop" : 1616036635755,
+        "duration" : 12604
+      }
+    } ]
+  }
+}

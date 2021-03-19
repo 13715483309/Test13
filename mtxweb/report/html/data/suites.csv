@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 18 11:03:57 CST 2021","Thu Mar 18 11:04:13 CST 2021","15722","case","test_navtion","Test_Navtion","","","test_case_1",""
+"passed","Thu Mar 18 11:04:13 CST 2021","Thu Mar 18 11:05:18 CST 2021","64760","case","test_navtion","Test_Navtion","","","test_case_2",""
+"broken","Thu Mar 18 11:03:43 CST 2021","Thu Mar 18 11:03:55 CST 2021","12604","case","test_login","Test_Login","","","test_case1[zhang-123456]",""
+"passed","Thu Mar 18 11:03:15 CST 2021","Thu Mar 18 11:03:41 CST 2021","25260","case","test_address","Test_Address","","","test_case_1",""

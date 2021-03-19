@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_navtion.py:11 初始化
+[32mINFO    [0m root:test_navtion.py:16 登录

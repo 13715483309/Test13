@@ -1,0 +1,4 @@
+loginurl: "http://121.42.15.146:9090/mtx/index.php?s=/index/user/logininfo.html"
+account: "//input[@name='accounts']"
+pwd: "//input[@name='pwd']"
+lo: "//button[text()='登录']"

@@ -1,0 +1,7 @@
+edit: "//a[contains(text(),'编辑')]"
+nickname: "//input[@name='nickname']"
+sex: "//input[@name='gender' and @value='2']/following-sibling::span"
+birthday: "//input[@name='birthday']"
+iframe3: "//iframe[@hidefocus='true']"
+makesure: "//input[@id='dpOkInput']"
+save: "//button[@type='submit' and text()='保存']"

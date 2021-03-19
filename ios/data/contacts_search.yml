@@ -1,0 +1,5 @@
+search: "//*[@name='Search']"
+name: "//*[@name='John-Appleseed@mac.com']"
+edit: '//*[@name="Edit"]'
+cancel: '//*[@name="Cancel"]'
+cancel2: 'name == "Cancel"'

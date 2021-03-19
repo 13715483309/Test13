@@ -1,0 +1,191 @@
+[ {
+  "uid" : "73122cfbfe237f27",
+  "name" : "test_case4[zhang-12345678909876543212345]",
+  "time" : {
+    "start" : 1616117968533,
+    "stop" : 1616117968691,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d682d3798d7f0ec0",
+  "name" : "test_case1[zhang-123456]",
+  "time" : {
+    "start" : 1616117965129,
+    "stop" : 1616117965492,
+    "duration" : 363
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3dae7e2978c3446",
+  "name" : "test_case_2[li40-2-2015-09-12]",
+  "time" : {
+    "start" : 1616117968870,
+    "stop" : 1616117969025,
+    "duration" : 155
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "12b5a3e025be1880",
+  "name" : "test_case_3[--]",
+  "time" : {
+    "start" : 1616117969039,
+    "stop" : 1616117969191,
+    "duration" : 152
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3394aab4144d036",
+  "name" : "test_login[li2-123456]",
+  "time" : {
+    "start" : 1616117967843,
+    "stop" : 1616117968027,
+    "duration" : 184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed96b0ee9bddca2d",
+  "name" : "test_case4[zhang-1234]",
+  "time" : {
+    "start" : 1616117968380,
+    "stop" : 1616117968531,
+    "duration" : 151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd874de2db562659",
+  "name" : "test_case_2[69--1-default-asc]",
+  "time" : {
+    "start" : 1616117967499,
+    "stop" : 1616117967673,
+    "duration" : 174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5bc6096ec348c7a6",
+  "name" : "test_case_01[li46-123456-username-1]",
+  "time" : {
+    "start" : 1616117969198,
+    "stop" : 1616117969361,
+    "duration" : 163
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8858c0d6642e2162",
+  "name" : "test_case1[li-123456]",
+  "time" : {
+    "start" : 1616117965667,
+    "stop" : 1616117965833,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73f859aef4847432",
+  "name" : "test_case_02[li43-123456-username-1]",
+  "time" : {
+    "start" : 1616117969392,
+    "stop" : 1616117969562,
+    "duration" : 170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9b16e9bd532345c",
+  "name" : "test_case2[li-137123212321-动车98号--6-112-1567-0]",
+  "time" : {
+    "start" : 1616117965497,
+    "stop" : 1616117965654,
+    "duration" : 157
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdcf2bd342bbe184",
+  "name" : "test_case2[5-goods-1---1380-2--0]",
+  "time" : {
+    "start" : 1616117965841,
+    "stop" : 1616117966029,
+    "duration" : 188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f15945e74dd9c12",
+  "name" : "test_case3[吗云-123456]",
+  "time" : {
+    "start" : 1616117968213,
+    "stop" : 1616117968374,
+    "duration" : 161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e8639f65725922e",
+  "name" : "test_case2[zhang-234567]",
+  "time" : {
+    "start" : 1616117968034,
+    "stop" : 1616117968210,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f63d4889f93a6ea7",
+  "name" : "test_case_1[li40-123456]",
+  "time" : {
+    "start" : 1616117968698,
+    "stop" : 1616117968865,
+    "duration" : 167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3c8bf65c1c21c57",
+  "name" : "test_case3[-goods-1---1380-2--0]",
+  "time" : {
+    "start" : 1616117966043,
+    "stop" : 1616117966213,
+    "duration" : 170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97640d44f91f7ba1",
+  "name" : "test_login[zhang-123456]",
+  "time" : {
+    "start" : 1616117967681,
+    "stop" : 1616117967840,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "776602a2f0b26f2d",
+  "name" : "test_case_1[手机]",
+  "time" : {
+    "start" : 1616117966227,
+    "stop" : 1616117967313,
+    "duration" : 1086
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be75e09a709375c0",
+  "name" : "test_case_1[59--1-default-asc]",
+  "time" : {
+    "start" : 1616117967320,
+    "stop" : 1616117967489,
+    "duration" : 169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

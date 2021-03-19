@@ -1,0 +1,28 @@
+cookies
+dev.add_cookie({'name':'','value':''})
+dev.refresh()
+下拉
+from selenium.webdriver.support import Select
+select = dev.find_elemnet_by_xpath()
+Select(select).select_by_index(1)
+Select(select).select_by_visible_value()
+Select(select).select_by_id()
+截图
+dev.get_screenshot_as_file(path)
+dev.find_element_by_xpaht().screenshot(path)
+弹窗
+dev.switch_to.alter()
+翻页（使用键盘模拟翻页）
+dev.find_element_by_xpath().send_keys(Keys.DOWN)
+
+po
+    case
+    data
+    page
+    tools
+
+生产报告
+pytest --alluredir ./report/Raw
+allure generate ./report/Raw -o ./report/html --clean
+
+

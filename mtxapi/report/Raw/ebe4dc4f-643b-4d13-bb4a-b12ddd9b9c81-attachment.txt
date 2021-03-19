@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_goodlist.py:47 category_id:69处理成功

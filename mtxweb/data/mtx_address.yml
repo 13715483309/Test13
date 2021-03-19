@@ -1,0 +1,5 @@
+preson: //a/i/following-sibling::span[text()='个人中心']
+myaddre: //a[contains(text(),'我的地址')]
+adr: //button[@data-popup-title='新增地址']
+input_name: //input[@name='name']
+input_tel: "//input[@name='tel']"

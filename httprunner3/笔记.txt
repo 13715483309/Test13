@@ -1,0 +1,15 @@
+har2case录制功能
+
+pip install httprunner==3.1.4
+hrun -V
+脚手架
+    httprunner startproject dir_test
+pip install har2case
+har2case
+
+录制
+    fidder
+    file export 2x .har 放进har中
+    har2case 登录接口.har
+    hrun 登录接口.har
+debugtalk.py勾子参数化，视频20201101 day9-5

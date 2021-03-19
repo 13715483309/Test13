@@ -1,0 +1,10 @@
+2021-03-17 10:54:26,182-INFO-20-root-<module>-hello
+2021-03-17 10:54:26,183-INFO-20-root-<module>-python
+2021-03-17 11:06:01,876-INFO-20-root-setup_class-个人信息初始化
+2021-03-17 11:06:02,106-INFO-20-root-test_case_1-登录
+2021-03-17 11:11:02,886-INFO-20-root/Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_personalsave.py-setup_class-个人信息初始化
+2021-03-17 11:11:03,127-INFO-20-root/Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_personalsave.py-test_case_1-登录
+2021-03-17 11:13:32,102-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_personalsave.py-setup_class-个人信息初始化
+2021-03-17 11:13:32,336-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_personalsave.py-test_case_1-登录
+2021-03-17 11:14:04,295-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_personalsave.py-setup_class-个人信息初始化
+2021-03-17 11:14:04,523-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_personalsave.py-test_case_1-登录

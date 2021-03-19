@@ -1,0 +1,252 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_case1[zhang-123456]",
+    "uid" : "d682d3798d7f0ec0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616117965129,
+      "stop" : 1616117965492,
+      "duration" : 363
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'zhang'", "'123456'" ]
+  }, {
+    "name" : "test_case2[li-137123212321-动车98号--6-112-1567-0]",
+    "uid" : "a9b16e9bd532345c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616117965497,
+      "stop" : 1616117965654,
+      "duration" : 157
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'动车98号'", "112", "1567", "''", "0", "'li'", "6", "'137123212321'" ]
+  }, {
+    "name" : "test_case1[li-123456]",
+    "uid" : "8858c0d6642e2162",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616117965667,
+      "stop" : 1616117965833,
+      "duration" : 166
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'li'", "'123456'" ]
+  }, {
+    "name" : "test_case2[5-goods-1---1380-2--0]",
+    "uid" : "bdcf2bd342bbe184",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616117965841,
+      "stop" : 1616117966029,
+      "duration" : 188
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1380", "'goods'", "5", "''", "2", "0", "''", "1", "''" ]
+  }, {
+    "name" : "test_case3[-goods-1---1380-2--0]",
+    "uid" : "a3c8bf65c1c21c57",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616117966043,
+      "stop" : 1616117966213,
+      "duration" : 170
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1380", "'goods'", "''", "''", "2", "0", "''", "1", "''" ]
+  }, {
+    "name" : "test_case_1[手机]",
+    "uid" : "776602a2f0b26f2d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616117966227,
+      "stop" : 1616117967313,
+      "duration" : 1086
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'手机'" ]
+  }, {
+    "name" : "test_case_1[59--1-default-asc]",
+    "uid" : "be75e09a709375c0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616117967320,
+      "stop" : 1616117967489,
+      "duration" : 169
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'default'", "59", "1", "'asc'", "''" ]
+  }, {
+    "name" : "test_case_2[69--1-default-asc]",
+    "uid" : "dd874de2db562659",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616117967499,
+      "stop" : 1616117967673,
+      "duration" : 174
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'default'", "69", "1", "'asc'", "''" ]
+  }, {
+    "name" : "test_login[zhang-123456]",
+    "uid" : "97640d44f91f7ba1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616117967681,
+      "stop" : 1616117967840,
+      "duration" : 159
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'zhang'", "'123456'" ]
+  }, {
+    "name" : "test_login[li2-123456]",
+    "uid" : "3394aab4144d036",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616117967843,
+      "stop" : 1616117968027,
+      "duration" : 184
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'li2'", "'123456'" ]
+  }, {
+    "name" : "test_case2[zhang-234567]",
+    "uid" : "5e8639f65725922e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616117968034,
+      "stop" : 1616117968210,
+      "duration" : 176
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'zhang'", "'234567'" ]
+  }, {
+    "name" : "test_case3[吗云-123456]",
+    "uid" : "3f15945e74dd9c12",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616117968213,
+      "stop" : 1616117968374,
+      "duration" : 161
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'吗云'", "'123456'" ]
+  }, {
+    "name" : "test_case4[zhang-1234]",
+    "uid" : "ed96b0ee9bddca2d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616117968380,
+      "stop" : 1616117968531,
+      "duration" : 151
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'zhang'", "'1234'" ]
+  }, {
+    "name" : "test_case4[zhang-12345678909876543212345]",
+    "uid" : "73122cfbfe237f27",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616117968533,
+      "stop" : 1616117968691,
+      "duration" : 158
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'zhang'", "'12345678909876543212345'" ]
+  }, {
+    "name" : "test_case_1[li40-123456]",
+    "uid" : "f63d4889f93a6ea7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616117968698,
+      "stop" : 1616117968865,
+      "duration" : 167
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'li40'", "'123456'" ]
+  }, {
+    "name" : "test_case_2[li40-2-2015-09-12]",
+    "uid" : "c3dae7e2978c3446",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1616117968870,
+      "stop" : 1616117969025,
+      "duration" : 155
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'2015-09-12'", "2", "'li40'" ]
+  }, {
+    "name" : "test_case_3[--]",
+    "uid" : "12b5a3e025be1880",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1616117969039,
+      "stop" : 1616117969191,
+      "duration" : 152
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "''", "''", "''" ]
+  }, {
+    "name" : "test_case_01[li46-123456-username-1]",
+    "uid" : "5bc6096ec348c7a6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1616117969198,
+      "stop" : 1616117969361,
+      "duration" : 163
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'li46'", "1", "'123456'", "'username'" ]
+  }, {
+    "name" : "test_case_02[li43-123456-username-1]",
+    "uid" : "73f859aef4847432",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1616117969392,
+      "stop" : 1616117969562,
+      "duration" : 170
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'li43'", "1", "'123456'", "'username'" ]
+  } ]
+}

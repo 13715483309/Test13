@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_personalsave.py:14 个人信息初始化
+[32mINFO    [0m root:test_personalsave.py:21 登录
