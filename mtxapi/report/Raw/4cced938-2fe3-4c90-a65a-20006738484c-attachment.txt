@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_colletion.py:26 收藏列表页

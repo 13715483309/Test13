@@ -1,0 +1,125 @@
+{
+  "uid" : "97f8b42a900d125a",
+  "name" : "test_case_1[59--1-default-asc]",
+  "fullName" : "testcase.test_goodlist.Test_Goodlist#test_case_1",
+  "historyId" : "08cf9938b91dbb6b75cf96e7d833d5aa",
+  "time" : {
+    "start" : 1616376992674,
+    "stop" : 1616376992835,
+    "duration" : 161
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1616376992673,
+      "stop" : 1616376992673,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b709bba07c6ad61e",
+      "name" : "log",
+      "source" : "b709bba07c6ad61e.txt",
+      "type" : "text/plain",
+      "size" : 78
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1616376993026,
+      "stop" : 1616376993026,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_goodlist"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Goodlist"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "97980-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_goodlist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "field",
+    "value" : "'default'"
+  }, {
+    "name" : "id",
+    "value" : "59"
+  }, {
+    "name" : "page",
+    "value" : "1"
+  }, {
+    "name" : "type",
+    "value" : "'asc'"
+  }, {
+    "name" : "wd",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a6cd714a3d23f083",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616117967320,
+        "stop" : 1616117967489,
+        "duration" : 169
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "97f8b42a900d125a.json",
+  "parameterValues" : [ "'default'", "59", "1", "'asc'", "''" ]
+}

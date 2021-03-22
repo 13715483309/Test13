@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '编辑失败或数据未改变' == '编辑成功'\n  - 编辑成功\n  + 编辑失败或数据未改变",
+      "children" : [ {
+        "name" : "test_case_2[li40-2-2015-09-12]",
+        "uid" : "bb7469d97cc46f54",
+        "parentUid" : "e2f64ac0e3e2dcfbb9c1be7fcc85dad5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616376994161,
+          "stop" : 1616376994318,
+          "duration" : 157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'2015-09-12'", "2", "'li40'" ]
+      } ],
+      "uid" : "e2f64ac0e3e2dcfbb9c1be7fcc85dad5"
+    }, {
+      "name" : "AssertionError: assert '昵称 2~16 个字符之间' == '编辑成功'\n  - 编辑成功\n  + 昵称 2~16 个字符之间",
+      "children" : [ {
+        "name" : "test_case_3[--]",
+        "uid" : "aea7b9a40eaf65a0",
+        "parentUid" : "c867238d816c5e361aca8a7f6b2d56e5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616376994333,
+          "stop" : 1616376994473,
+          "duration" : 140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "''", "''" ]
+      } ],
+      "uid" : "c867238d816c5e361aca8a7f6b2d56e5"
+    }, {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n2 Failed Assumptions:\n\ntestcase/test_register.py:21: AssumptionFailure\n>>\tpytest.assume(res['msg'] == '注册成功')\nAssertionError: assert False\n\ntestcase/test_register.py:22: AssumptionFailure\n>>\tpytest.assume(res['code'] == 0)\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "test_case_01[li46-123456-username-1]",
+        "uid" : "706bc152f3eef489",
+        "parentUid" : "6038ab09e8a5b9b3c5bdd291761c89ed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1616376994488,
+          "stop" : 1616376994642,
+          "duration" : 154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'li46'", "1", "'123456'", "'username'" ]
+      } ],
+      "uid" : "6038ab09e8a5b9b3c5bdd291761c89ed"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

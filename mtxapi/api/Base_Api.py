@@ -16,3 +16,8 @@ class Base_Api():
         res = self.session.post(url=url,headers=self.headers,data=data)
         r_j = json.loads(res.text)
         return r_j
+
+    def mtx_get(self,path):
+        url = self.ip + path
+        res = self.session.get(url)#返回的数据类型是str
+        return res

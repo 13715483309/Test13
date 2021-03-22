@@ -1,0 +1,106 @@
+{
+  "uid" : "f6594a01c68364d",
+  "name" : "test_case_1[li40-123456]",
+  "fullName" : "testcase.test_personalsave.Test_PersonalSave#test_case_1",
+  "historyId" : "191a380ae41ff3425ee2d7ca338d118e",
+  "time" : {
+    "start" : 1616117968698,
+    "stop" : 1616117968865,
+    "duration" : 167
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1616117968696,
+      "stop" : 1616117968697,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "51e7ceb8edbfc8e4",
+      "name" : "log",
+      "source" : "51e7ceb8edbfc8e4.txt",
+      "type" : "text/plain",
+      "size" : 122
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1616117969194,
+      "stop" : 1616117969194,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_personalsave"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_PersonalSave"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "84774-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_personalsave"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "account",
+    "value" : "'li40'"
+  }, {
+    "name" : "pwd",
+    "value" : "'123456'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6594a01c68364d.json",
+  "parameterValues" : [ "'li40'", "'123456'" ]
+}

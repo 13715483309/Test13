@@ -1,0 +1,116 @@
+{
+  "uid" : "f9a90789aa69f024",
+  "name" : "test_case_01[li46-123456-username-1]",
+  "fullName" : "testcase.test_register.Test_Register#test_case_01",
+  "historyId" : "1d6cdb123008fd2334b213b6ceee7b7d",
+  "time" : {
+    "start" : 1616117969198,
+    "stop" : 1616117969361,
+    "duration" : 163
+  },
+  "status" : "failed",
+  "statusMessage" : "pytest_assume.plugin.FailedAssumption: \n2 Failed Assumptions:\n\ntestcase/test_register.py:21: AssumptionFailure\n>>\tpytest.assume(res['msg'] == '注册成功')\nAssertionError: assert False\n\ntestcase/test_register.py:22: AssumptionFailure\n>>\tpytest.assume(res['code'] == 0)\nAssertionError: assert False",
+  "statusTrace" : "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               2 Failed Assumptions:\nE               \nE               testcase/test_register.py:21: AssumptionFailure\nE               >>\tpytest.assume(res['msg'] == '注册成功')\nE               AssertionError: assert False\nE               \nE               testcase/test_register.py:22: AssumptionFailure\nE               >>\tpytest.assume(res['code'] == 0)\nE               AssertionError: assert False\n\n../../../opt/anaconda3/lib/python3.8/site-packages/six.py:702: FailedAssumption",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1616117969196,
+      "stop" : 1616117969197,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "pytest_assume.plugin.FailedAssumption: \n2 Failed Assumptions:\n\ntestcase/test_register.py:21: AssumptionFailure\n>>\tpytest.assume(res['msg'] == '注册成功')\nAssertionError: assert False\n\ntestcase/test_register.py:22: AssumptionFailure\n>>\tpytest.assume(res['code'] == 0)\nAssertionError: assert False",
+    "statusTrace" : "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               2 Failed Assumptions:\nE               \nE               testcase/test_register.py:21: AssumptionFailure\nE               >>\tpytest.assume(res['msg'] == '注册成功')\nE               AssertionError: assert False\nE               \nE               testcase/test_register.py:22: AssumptionFailure\nE               >>\tpytest.assume(res['code'] == 0)\nE               AssertionError: assert False\n\n../../../opt/anaconda3/lib/python3.8/site-packages/six.py:702: FailedAssumption",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "62991f08becb0c8",
+      "name" : "stdout",
+      "source" : "62991f08becb0c8.txt",
+      "type" : "text/plain",
+      "size" : 52
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1616117969566,
+      "stop" : 1616117969566,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Register"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "84774-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "account",
+    "value" : "'li46'"
+  }, {
+    "name" : "is_agree",
+    "value" : "1"
+  }, {
+    "name" : "pwd",
+    "value" : "'123456'"
+  }, {
+    "name" : "type",
+    "value" : "'username'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9a90789aa69f024.json",
+  "parameterValues" : [ "'li46'", "1", "'123456'", "'username'" ]
+}

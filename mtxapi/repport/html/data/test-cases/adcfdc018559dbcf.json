@@ -1,0 +1,111 @@
+{
+  "uid" : "adcfdc018559dbcf",
+  "name" : "test_case2[5-goods-1---1380-2--0]",
+  "fullName" : "testcase.test_buy.Test_Buy#test_case2",
+  "historyId" : "7620d0b3cd2530d88550e9774af603ce",
+  "time" : {
+    "start" : 1616117965841,
+    "stop" : 1616117966029,
+    "duration" : 188
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1616117965665,
+      "stop" : 1616117965665,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1616117966220,
+      "stop" : 1616117966220,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_buy"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Buy"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "84774-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "address_id",
+    "value" : "1380"
+  }, {
+    "name" : "buy_type",
+    "value" : "'goods'"
+  }, {
+    "name" : "goods_id",
+    "value" : "5"
+  }, {
+    "name" : "ids",
+    "value" : "''"
+  }, {
+    "name" : "payment_id",
+    "value" : "2"
+  }, {
+    "name" : "site_model",
+    "value" : "0"
+  }, {
+    "name" : "spec",
+    "value" : "''"
+  }, {
+    "name" : "stock",
+    "value" : "1"
+  }, {
+    "name" : "user_note",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "adcfdc018559dbcf.json",
+  "parameterValues" : [ "1380", "'goods'", "5", "''", "2", "0", "''", "1", "''" ]
+}
