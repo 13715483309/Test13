@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_navtion.py:20 导航栏跑一遍
+[32mINFO    [0m root:test_navtion.py:24 清除操作

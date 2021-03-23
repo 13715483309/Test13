@@ -1,0 +1,118 @@
+{
+  "uid" : "5ff6438f7634163b",
+  "name" : "test_case_collection",
+  "fullName" : "testcase.test_colletion.Test_Collection#test_case_collection",
+  "historyId" : "a3f983c647ef646e6ff3f353c3820981",
+  "time" : {
+    "start" : 1616461743144,
+    "stop" : 1616461744173,
+    "duration" : 1029
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1616461742943,
+      "stop" : 1616461742944,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bb0616a969c6f725",
+      "name" : "log",
+      "source" : "bb0616a969c6f725.txt",
+      "type" : "text/plain",
+      "size" : 59
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1616461744175,
+      "stop" : 1616461744175,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_colletion"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Collection"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "966-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_colletion"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "51debdc6e6ba4b28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616461544301,
+        "stop" : 1616461545367,
+        "duration" : 1066
+      }
+    }, {
+      "uid" : "abb0e67f6a3a7524",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616376990264,
+        "stop" : 1616376991228,
+        "duration" : 964
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5ff6438f7634163b.json",
+  "parameterValues" : [ ]
+}

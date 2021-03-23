@@ -1,0 +1,5 @@
+edit: "//a[text()='修改']"
+my_pwd: "//input[@name='my_pwd']"
+new_pwd: "//input[@name='new_pwd']"
+comfire_pwd: "//input[@name='confirm_new_pwd']"
+safe: "//button[text()='保存']"

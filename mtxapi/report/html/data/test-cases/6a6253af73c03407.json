@@ -1,0 +1,95 @@
+{
+  "uid" : "6a6253af73c03407",
+  "name" : "test_case_2[li40-2-2015-09-12]",
+  "fullName" : "testcase.test_personalsave.Test_PersonalSave#test_case_2",
+  "historyId" : "4f0631e50620fe036715bd5b08587257",
+  "time" : {
+    "start" : 1616117968870,
+    "stop" : 1616117969025,
+    "duration" : 155
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '编辑失败或数据未改变' == '编辑成功'\n  - 编辑成功\n  + 编辑失败或数据未改变",
+  "statusTrace" : "self = <test_personalsave.Test_PersonalSave object at 0x7ff0fab6fe80>, nickname = 'li40', gender = 2\nbirthday = '2015-09-12'\n\n    @pytest.mark.parametrize('nickname,gender,birthday',[('li40',2,'2015-09-12')])\n    def test_case_2(self,nickname,gender,birthday):\n        data = {\n            'nickname': nickname,\n            'gender': gender,\n            'birthday': birthday\n        }\n        res = self.perobj.persave(data)\n>       assert res['msg'] == '编辑成功'\nE       AssertionError: assert '编辑失败或数据未改变' == '编辑成功'\nE         - 编辑成功\nE         + 编辑失败或数据未改变\n\ntestcase/test_personalsave.py:31: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1616117968696,
+      "stop" : 1616117968697,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1616117969194,
+      "stop" : 1616117969194,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_personalsave"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_PersonalSave"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "84774-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_personalsave"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "birthday",
+    "value" : "'2015-09-12'"
+  }, {
+    "name" : "gender",
+    "value" : "2"
+  }, {
+    "name" : "nickname",
+    "value" : "'li40'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a6253af73c03407.json",
+  "parameterValues" : [ "'2015-09-12'", "2", "'li40'" ]
+}

@@ -1,3 +1,7 @@
 命令行执行
     进入到pytest文件下 直接输入pytest
     pytest -m 新标签
+
+生产报告
+pytest --alluredir ./report/Raw
+allure generate ./report/Raw -o ./report/html --clean

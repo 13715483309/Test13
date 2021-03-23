@@ -1,0 +1,124 @@
+{
+  "uid" : "1274249a8e6cbf8",
+  "name" : "test_case2[zhang-234567]",
+  "fullName" : "testcase.test_login1.Test_login#test_case2",
+  "historyId" : "b5b4f6d83a2c7d7c9dab6181cc965c25",
+  "time" : {
+    "start" : 1616461747234,
+    "stop" : 1616461747382,
+    "duration" : 148
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1616461746900,
+      "stop" : 1616461746900,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1616461747862,
+      "stop" : 1616461747862,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login1"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_login"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "966-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "account",
+    "value" : "'zhang'"
+  }, {
+    "name" : "pwd",
+    "value" : "'234567'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e3995289f118be91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616461547364,
+        "stop" : 1616461547510,
+        "duration" : 146
+      }
+    }, {
+      "uid" : "385537feb87222ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616376993355,
+        "stop" : 1616376993502,
+        "duration" : 147
+      }
+    }, {
+      "uid" : "8651eb5e2011baee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616117968034,
+        "stop" : 1616117968210,
+        "duration" : 176
+      }
+    }, {
+      "uid" : "fc116140c5f66f04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615209903325,
+        "stop" : 1615209903508,
+        "duration" : 183
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1274249a8e6cbf8.json",
+  "parameterValues" : [ "'zhang'", "'234567'" ]
+}

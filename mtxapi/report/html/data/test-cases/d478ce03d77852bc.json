@@ -1,0 +1,113 @@
+{
+  "uid" : "d478ce03d77852bc",
+  "name" : "test_case_3[--]",
+  "fullName" : "testcase.test_personalsave.Test_PersonalSave#test_case_3",
+  "historyId" : "4a8546d82a83c463a15b72a3db6cc17f",
+  "time" : {
+    "start" : 1616117969039,
+    "stop" : 1616117969191,
+    "duration" : 152
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '昵称 2~16 个字符之间' == '编辑成功'\n  - 编辑成功\n  + 昵称 2~16 个字符之间",
+  "statusTrace" : "self = <test_personalsave.Test_PersonalSave object at 0x7ff0faa9d7c0>, nickname = '', gender = '', birthday = ''\n\n    @pytest.mark.parametrize('nickname,gender,birthday', [('', '', '')])\n    def test_case_3(self, nickname, gender, birthday):\n        data = {\n            'nickname': nickname,\n            'gender': gender,\n            'birthday': birthday\n        }\n        res = self.perobj.persave(data)\n        print(res)\n>       assert res['msg'] == '编辑成功'\nE       AssertionError: assert '昵称 2~16 个字符之间' == '编辑成功'\nE         - 编辑成功\nE         + 昵称 2~16 个字符之间\n\ntestcase/test_personalsave.py:43: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1616117968696,
+      "stop" : 1616117968697,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '昵称 2~16 个字符之间' == '编辑成功'\n  - 编辑成功\n  + 昵称 2~16 个字符之间",
+    "statusTrace" : "self = <test_personalsave.Test_PersonalSave object at 0x7ff0faa9d7c0>, nickname = '', gender = '', birthday = ''\n\n    @pytest.mark.parametrize('nickname,gender,birthday', [('', '', '')])\n    def test_case_3(self, nickname, gender, birthday):\n        data = {\n            'nickname': nickname,\n            'gender': gender,\n            'birthday': birthday\n        }\n        res = self.perobj.persave(data)\n        print(res)\n>       assert res['msg'] == '编辑成功'\nE       AssertionError: assert '昵称 2~16 个字符之间' == '编辑成功'\nE         - 编辑成功\nE         + 昵称 2~16 个字符之间\n\ntestcase/test_personalsave.py:43: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fc8f72bbefb20c93",
+      "name" : "stdout",
+      "source" : "fc8f72bbefb20c93.txt",
+      "type" : "text/plain",
+      "size" : 63
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1616117969194,
+      "stop" : 1616117969194,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_personalsave"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_PersonalSave"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "84774-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_personalsave"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "birthday",
+    "value" : "''"
+  }, {
+    "name" : "gender",
+    "value" : "''"
+  }, {
+    "name" : "nickname",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d478ce03d77852bc.json",
+  "parameterValues" : [ "''", "''", "''" ]
+}

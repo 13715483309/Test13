@@ -16,7 +16,7 @@ class Mtx_Login(Base_Page):
     pwd = data['pwd']
     lo = data['lo']
 
-    def login(self,account='li',pwd='123456'):
+    def login(self,account='li40',pwd='123456'):
         self.dev.get(self.loginurl)
         # self.dev.find_element_by_xpath(self.account).send_keys('zhang')
         # self.dev.find_element_by_xpath(self.pwd).send_keys('123456')

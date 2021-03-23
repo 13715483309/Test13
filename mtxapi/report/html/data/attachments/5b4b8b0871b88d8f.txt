@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_goodlist.py:27 category_id:59没有更多数据了

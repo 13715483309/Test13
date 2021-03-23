@@ -1,0 +1,124 @@
+{
+  "uid" : "3bc11f0b47c46822",
+  "name" : "test_case2[li-137123212321-动车98号--6-112-1567-0]",
+  "fullName" : "testcase.test_addadress.Test_Addaddress#test_case2",
+  "historyId" : "fd0e3ddaa9a81a0c2248d793fccf76a5",
+  "time" : {
+    "start" : 1616376989415,
+    "stop" : 1616376989567,
+    "duration" : 152
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1616376989014,
+      "stop" : 1616376989014,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8b9abc1a697f54ba",
+      "name" : "stdout",
+      "source" : "8b9abc1a697f54ba.txt",
+      "type" : "text/plain",
+      "size" : 47
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1616376989575,
+      "stop" : 1616376989575,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_addadress"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Addaddress"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "97980-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_addadress"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "address",
+    "value" : "'动车98号'"
+  }, {
+    "name" : "city",
+    "value" : "112"
+  }, {
+    "name" : "county",
+    "value" : "1567"
+  }, {
+    "name" : "id",
+    "value" : "''"
+  }, {
+    "name" : "is_default",
+    "value" : "0"
+  }, {
+    "name" : "name",
+    "value" : "'li'"
+  }, {
+    "name" : "province",
+    "value" : "6"
+  }, {
+    "name" : "tel",
+    "value" : "'137123212321'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3bc11f0b47c46822.json",
+  "parameterValues" : [ "'动车98号'", "112", "1567", "''", "0", "'li'", "6", "'137123212321'" ]
+}

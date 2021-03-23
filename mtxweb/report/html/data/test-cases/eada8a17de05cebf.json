@@ -1,0 +1,136 @@
+{
+  "uid" : "eada8a17de05cebf",
+  "name" : "test_case_1",
+  "fullName" : "case.test_address.Test_Address#test_case_1",
+  "historyId" : "3454b25487d38c25782d96a37fe80a3c",
+  "time" : {
+    "start" : 1616466699619,
+    "stop" : 1616466722389,
+    "duration" : 22770
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1616466697692,
+      "stop" : 1616466699594,
+      "duration" : 1902
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1616466722390,
+      "stop" : 1616466722476,
+      "duration" : 86
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_address"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Address"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "2211-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4a903dba5c9e7bb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616036595873,
+        "stop" : 1616036621133,
+        "duration" : 25260
+      }
+    }, {
+      "uid" : "59da54be09b245bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615858433437,
+        "stop" : 1615858453419,
+        "duration" : 19982
+      }
+    }, {
+      "uid" : "94d460df72d89e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615772675498,
+        "stop" : 1615772696196,
+        "duration" : 20698
+      }
+    }, {
+      "uid" : "44d5bffe40d72ebf",
+      "status" : "broken",
+      "statusDetails" : "TypeError: __init__() missing 1 required positional argument: 'dev'",
+      "time" : {
+        "start" : 1615772294224,
+        "stop" : 1615772294224,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d76438c4c342ec30",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'dev' is not defined",
+      "time" : {
+        "start" : 1615772218978,
+        "stop" : 1615772218978,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "227c8d49e9303c13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615300753655,
+        "stop" : 1615300779487,
+        "duration" : 25832
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eada8a17de05cebf.json",
+  "parameterValues" : [ ]
+}

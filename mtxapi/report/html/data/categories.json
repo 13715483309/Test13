@@ -7,13 +7,13 @@
       "name" : "AssertionError: assert '编辑失败或数据未改变' == '编辑成功'\n  - 编辑成功\n  + 编辑失败或数据未改变",
       "children" : [ {
         "name" : "test_case_2[li40-2-2015-09-12]",
-        "uid" : "c3dae7e2978c3446",
+        "uid" : "ddfb4f44c5d952e3",
         "parentUid" : "e2f64ac0e3e2dcfbb9c1be7fcc85dad5",
         "status" : "failed",
         "time" : {
-          "start" : 1616117968870,
-          "stop" : 1616117969025,
-          "duration" : 155
+          "start" : 1616461748036,
+          "stop" : 1616461748192,
+          "duration" : 156
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
       "name" : "AssertionError: assert '昵称 2~16 个字符之间' == '编辑成功'\n  - 编辑成功\n  + 昵称 2~16 个字符之间",
       "children" : [ {
         "name" : "test_case_3[--]",
-        "uid" : "12b5a3e025be1880",
+        "uid" : "47f5bb1780c7c8d7",
         "parentUid" : "c867238d816c5e361aca8a7f6b2d56e5",
         "status" : "failed",
         "time" : {
-          "start" : 1616117969039,
-          "stop" : 1616117969191,
-          "duration" : 152
+          "start" : 1616461748198,
+          "stop" : 1616461748344,
+          "duration" : 146
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +41,13 @@
       "name" : "pytest_assume.plugin.FailedAssumption: \n2 Failed Assumptions:\n\ntestcase/test_register.py:21: AssumptionFailure\n>>\tpytest.assume(res['msg'] == '注册成功')\nAssertionError: assert False\n\ntestcase/test_register.py:22: AssumptionFailure\n>>\tpytest.assume(res['code'] == 0)\nAssertionError: assert False",
       "children" : [ {
         "name" : "test_case_01[li46-123456-username-1]",
-        "uid" : "5bc6096ec348c7a6",
+        "uid" : "24d2accdf06daa93",
         "parentUid" : "6038ab09e8a5b9b3c5bdd291761c89ed",
         "status" : "failed",
         "time" : {
-          "start" : 1616117969198,
-          "stop" : 1616117969361,
-          "duration" : 163
+          "start" : 1616461748361,
+          "stop" : 1616461748523,
+          "duration" : 162
         },
         "flaky" : false,
         "newFailed" : false,
