@@ -1,0 +1,6 @@
+keywords: "//input[@name='keywords']"
+search1: "//button[@class='am-btn am-btn-default am-radius']"
+sear_more: "//label[contains(text(),'更多筛选条件')]/i[@class='am-icon-angle-down']"
+sear_type: "//select[@name='type']"
+search2: "//button[contains(@class,'btn-loading-example') and text()='搜索']"
+sear_clear: "//a[text()='清除条件']"

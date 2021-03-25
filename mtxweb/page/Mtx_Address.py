@@ -5,6 +5,8 @@ from selenium import webdriver
 from selenium.webdriver.support.select import Select
 
 from mtxweb.page.Base_Page import Base_Page
+from mtxweb.page.Mtx_Left import Mtx_Left
+from mtxweb.tools.Add_Cookies import Add_Cookies
 
 
 class Mtx_Address(Base_Page):
@@ -21,15 +23,15 @@ class Mtx_Address(Base_Page):
     def __init__(self,dev):
         super().__init__(dev)
 
+    def addcookies(self):
+        Add_Cookies().adcook(self.dev)
+
+    def goto_address(self):
+        self.leftobj = Mtx_Left(self.dev)
+        self.leftobj.myshopt()
+        self.leftobj.myaddress()
+
     def address(self):
-        self.dev.get("http://121.42.15.146:9090/mtx/")
-        sleep(2)
-        self.dev.add_cookie({'name':'PHPSESSID','value':'o37s9ebl10ui1s15hcglfl55h6'})
-        sleep(2)
-        self.dev.refresh()
-        self.dev.implicitly_wait(10)
-        self.mtx_find_xpath(self.preson).click()
-        self.mtx_find_xpath(self.myaddre).click()
         self.mtx_find_xpath(self.adr).click()
         self.dev.switch_to.frame(2)
         self.mtx_find_xpath(self.input_name).send_keys('zhangzhang')
@@ -41,7 +43,7 @@ class Mtx_Address(Base_Page):
         Select(sel).select_by_visible_text('内蒙古自治区')
         js2 = 'document.getElementsByName("city")[0].style.display="block";'
         self.dev.execute_script(js2)
-        sel2=self.mtx_find_xpath("//select[@name='city']")
+        sel2 = self.mtx_find_xpath("//select[@name='city']")
         Select(sel2).select_by_visible_text('包头市')
         js3 = 'document.getElementsByName("county")[0].style.display="block";'
         self.dev.execute_script(js3)
@@ -52,13 +54,15 @@ class Mtx_Address(Base_Page):
         self.mtx_find_xpath("//span[text()='否']").click()
         sleep(2)
         self.mtx_find_xpath("//button[text()='保存']").click()
-        sleep(3)
-        name = 'zhang'
-        return name
+        # sleep(3)
+        # name = 'zhang'
+        # return name
         # self.dev.quit()
 
 if __name__ == '__main__':
     dev = webdriver.Chrome()
     obj = Mtx_Address(dev)
+    obj.addcookies()
+    obj.goto_address()
     obj.address()
 

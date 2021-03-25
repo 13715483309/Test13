@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_jifen.py:14 初始化
+[32mINFO    [0m root:test_jifen.py:20 登录

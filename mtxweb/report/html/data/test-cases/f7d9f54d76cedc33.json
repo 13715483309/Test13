@@ -1,0 +1,175 @@
+{
+  "uid" : "f7d9f54d76cedc33",
+  "name" : "test_case1[zhang-123456]",
+  "fullName" : "case.test_login.Test_Login#test_case1",
+  "historyId" : "f7f3b76f220cbd3c30a929f6b4f6e7a0",
+  "time" : {
+    "start" : 1616641106827,
+    "stop" : 1616641115995,
+    "duration" : 9168
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1616641104814,
+      "stop" : 1616641106825,
+      "duration" : 2011
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6927bce4af4aaebd",
+      "name" : "log",
+      "source" : "6927bce4af4aaebd.txt",
+      "type" : "text/plain",
+      "size" : 47
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1616641115997,
+      "stop" : 1616641116081,
+      "duration" : 84
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "19425-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "account",
+    "value" : "'zhang'"
+  }, {
+    "name" : "pwd",
+    "value" : "'123456'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6b38ec813013ebe2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616466724387,
+        "stop" : 1616466734882,
+        "duration" : 10495
+      }
+    }, {
+      "uid" : "2f7c483d9d4f7879",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'NoneType' object is not callable",
+      "time" : {
+        "start" : 1616036623151,
+        "stop" : 1616036635755,
+        "duration" : 12604
+      }
+    }, {
+      "uid" : "3ab793540115372f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615858455551,
+        "stop" : 1615858463861,
+        "duration" : 8310
+      }
+    }, {
+      "uid" : "34618131b9722649",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615772698305,
+        "stop" : 1615772706707,
+        "duration" : 8402
+      }
+    }, {
+      "uid" : "5e715f52a93aae59",
+      "status" : "broken",
+      "statusDetails" : "TypeError: __init__() missing 1 required positional argument: 'dev'",
+      "time" : {
+        "start" : 1615772294275,
+        "stop" : 1615772294275,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "87a51ed3172f6bf1",
+      "status" : "broken",
+      "statusDetails" : "TypeError: __init__() missing 1 required positional argument: 'dev'",
+      "time" : {
+        "start" : 1615772219046,
+        "stop" : 1615772219046,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c7f3c1fd91ff822d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615300781526,
+        "stop" : 1615300791739,
+        "duration" : 10213
+      }
+    }, {
+      "uid" : "7578023789c5d287",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614910255562,
+        "stop" : 1614910263604,
+        "duration" : 8042
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f7d9f54d76cedc33.json",
+  "parameterValues" : [ "'zhang'", "'123456'" ]
+}

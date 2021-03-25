@@ -1,0 +1,79 @@
+{
+  "uid" : "87a51ed3172f6bf1",
+  "name" : "test_case1[zhang-123456]",
+  "fullName" : "case.test_login.Test_Login#test_case1",
+  "historyId" : "f7f3b76f220cbd3c30a929f6b4f6e7a0",
+  "time" : {
+    "start" : 1615772219046,
+    "stop" : 1615772219046,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: __init__() missing 1 required positional argument: 'dev'",
+  "statusTrace" : "self = <class 'test_login.Test_Login'>\n\n    def setup_class(self):\n>       self.logobj = Mtx_Login()\n\ncase/test_login.py:10: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <mtxweb.page.Mtx_Login.Mtx_Login object at 0x7f867f4fc520>\n\n    def __init__(self):\n>       super().__init__()\nE       TypeError: __init__() missing 1 required positional argument: 'dev'\n\npage/Mtx_Login.py:11: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1615772219047,
+      "stop" : 1615772219047,
+      "duration" : 0
+    },
+    "status" : "broken",
+    "statusMessage" : "TypeError: __init__() missing 1 required positional argument: 'dev'\n",
+    "statusTrace" : "  File \"/Users/chenjinfei/opt/anaconda3/lib/python3.8/site-packages/pluggy/callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"/Users/chenjinfei/opt/anaconda3/lib/python3.8/site-packages/_pytest/fixtures.py\", line 964, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"/Users/chenjinfei/opt/anaconda3/lib/python3.8/site-packages/_pytest/fixtures.py\", line 788, in call_fixture_func\n    res = next(it)\n  File \"/Users/chenjinfei/opt/anaconda3/lib/python3.8/site-packages/_pytest/python.py\", line 701, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, self.obj)\n  File \"/Users/chenjinfei/opt/anaconda3/lib/python3.8/site-packages/_pytest/python.py\", line 632, in _call_with_optional_argument\n    func(arg)\n  File \"/Users/chenjinfei/project/pythonProject/mtxweb/case/test_login.py\", line 10, in setup_class\n    self.logobj = Mtx_Login()\n  File \"/Users/chenjinfei/project/pythonProject/mtxweb/page/Mtx_Login.py\", line 11, in __init__\n    super().__init__()\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "68113-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "account",
+    "value" : "'zhang'"
+  }, {
+    "name" : "pwd",
+    "value" : "'123456'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87a51ed3172f6bf1.json",
+  "parameterValues" : [ "'zhang'", "'123456'" ]
+}
