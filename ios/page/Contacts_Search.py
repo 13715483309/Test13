@@ -1,10 +1,13 @@
 import yaml
 
 from ios.page.Base_Page import Base_Page
+import os
 
 
 class Contancts_Search(Base_Page):
-    with open('/Users/chenjinfei/project/pythonProject/ios/data/contacts_search.yml', encoding='utf-8') as f:
+    cur_path = os.path.abspath(__file__)
+    data_path = os.path.join(os.path.dirname(cur_path)+os.path.sep+'../data','contacts_search.yml')
+    with open(data_path, encoding='utf-8') as f:
         data = yaml.safe_load(f)
     ele_search = data['search']
     ele_name = data['name']

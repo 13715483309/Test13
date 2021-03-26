@@ -53,7 +53,7 @@ class Mtx_Left(Base_Page):
         self.mtx_find_xpath("//a[contains(text(),' 我的消息')]").click()
 
     # 我的足迹
-    def myfoot(self):
+    def footstep(self):
         self.mtx_find_xpath("//a[contains(text(),' 我的足迹')]").click()
 
     # 问答
@@ -81,7 +81,7 @@ if __name__ == '__main__':
     obj.myaddress()
     obj.safe()
     obj.myinfo()
-    obj.myfoot()
+    obj.footstep()
     obj.answite()
     obj.loginout()
     obj.out()
