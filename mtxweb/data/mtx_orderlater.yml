@@ -1,0 +1,3 @@
+kw: "//input[@name='keywords']"
+more: "//label/i[@class='am-icon-angle-down']"
+find: "//td/button[text()='搜索']"

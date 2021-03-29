@@ -1,3 +1,43 @@
-2021-03-26 09:26:35,095-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_footstep.py-setup_class-初始化
-2021-03-26 09:26:35,449-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_footstep.py-test_login-登录
-2021-03-26 09:26:36,346-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_footstep.py-test_footstep-搜索
+2021-03-29 09:29:41,907-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-setup_class-初始化
+2021-03-29 09:29:42,297-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_login-登录成功
+2021-03-29 09:29:43,165-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_orderlater-断言成功
+2021-03-29 09:30:06,018-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-setup_class-初始化
+2021-03-29 09:30:06,395-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_login-登录成功
+2021-03-29 09:30:07,270-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_orderlater-断言成功
+2021-03-29 09:30:50,166-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-setup_class-初始化
+2021-03-29 09:30:50,457-ERROR-40-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_login-错误信息提示：assert '登录成功' == '断言失败'
+2021-03-29 09:30:51,487-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_orderlater-断言成功
+2021-03-29 09:44:35,144-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-setup_class-初始化
+2021-03-29 09:44:35,465-ERROR-40-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_login-错误信息提示：assert '登录成功' == '断言失败'
+2021-03-29 09:45:20,862-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-setup_class-初始化
+2021-03-29 09:45:21,156-ERROR-40-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_login-错误信息提示：assert '登录成功' == '断言失败'
+2021-03-29 09:48:20,888-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-setup_class-初始化
+2021-03-29 09:48:21,186-ERROR-40-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_login-错误信息提示：assert '登录成功' == '断言失败'
+2021-03-29 09:48:22,227-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_case_3-断言成功
+2021-03-29 09:48:35,634-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-setup_class-初始化
+2021-03-29 09:48:35,933-ERROR-40-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_login-错误信息提示：assert '登录成功' == '断言失败'
+2021-03-29 09:48:36,867-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_case_3-断言成功
+2021-03-29 09:49:54,085-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-setup_class-初始化
+2021-03-29 09:49:54,371-ERROR-40-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_login-错误信息提示：assert '登录成功' == '断言失败'
+2021-03-29 09:50:46,666-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-setup_class-初始化
+2021-03-29 09:50:46,972-ERROR-40-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_login-错误信息提示：assert '登录成功' == '断言失败'
+2021-03-29 09:50:48,033-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_orderlater-断言成功
+2021-03-29 09:58:07,211-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-setup_class-初始化
+2021-03-29 09:58:07,493-ERROR-40-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_login-错误信息提示：assert '登录成功' == '断言失败'
+2021-03-29 09:59:31,055-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-setup_class-初始化
+2021-03-29 09:59:31,295-ERROR-40-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_login-错误信息提示：assert '登录成功' == '断言失败'
+2021-03-29 10:13:10,206-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-setup_class-初始化
+2021-03-29 10:13:10,465-ERROR-40-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_login-错误信息提示：assert '登录成功' == '断言失败'
+2021-03-29 10:13:11,808-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_case_3-断言成功
+2021-03-29 10:13:49,398-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-setup_class-初始化
+2021-03-29 10:13:49,628-ERROR-40-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_login-错误信息提示：assert '登录成功' == '断言失败'
+2021-03-29 10:13:51,150-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_orderlater-断言成功
+2021-03-29 10:13:51,904-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_case_3-断言成功
+2021-03-29 10:14:08,299-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-setup_class-初始化
+2021-03-29 10:14:08,524-ERROR-40-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_login-错误信息提示：assert '登录成功' == '断言失败'
+2021-03-29 10:14:09,611-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_orderlater-断言成功
+2021-03-29 10:14:10,509-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_case_3-断言成功
+2021-03-29 10:14:43,226-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-setup_class-初始化
+2021-03-29 10:14:43,487-ERROR-40-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_login-错误信息提示：assert '登录成功' == '断言失败'
+2021-03-29 10:14:44,550-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_orderlater-断言成功
+2021-03-29 10:14:45,240-INFO-20-root - /Users/chenjinfei/project/pythonProject/mtxapi/testcase/test_orderlater.py-test_case_3-断言成功
