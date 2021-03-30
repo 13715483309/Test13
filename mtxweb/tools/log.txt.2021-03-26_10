@@ -1,0 +1,11 @@
+2021-03-26 10:31:02,213 INFO [root] [test_footstep.py (setup_class:18)] 初始化
+2021-03-26 10:31:10,301 INFO [root] [test_footstep.py (test_login:22)] 登录
+2021-03-26 10:31:12,904 INFO [root] [test_footstep.py (test_goto_foot:27)] 足迹页面
+2021-03-26 10:31:56,056 INFO [root] [test_footstep.py (setup_class:18)] 初始化
+2021-03-26 10:32:03,898 INFO [root] [test_footstep.py (test_login:22)] 登录
+2021-03-26 10:32:07,114 INFO [root] [test_footstep.py (test_goto_foot:27)] 足迹页面
+2021-03-26 10:32:08,369 INFO [root] [test_footstep.py (test_footstep:31)] 足迹搜索
+2021-03-26 10:33:19,027 INFO [root] [test_footstep.py (setup_class:18)] 初始化
+2021-03-26 10:33:27,449 INFO [root] [test_footstep.py (test_login:22)] 登录
+2021-03-26 10:33:29,957 INFO [root] [test_footstep.py (test_goto_foot:27)] 足迹页面
+2021-03-26 10:33:30,765 INFO [root] [test_footstep.py (test_footstep:31)] 足迹搜索
