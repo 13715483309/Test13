@@ -1,0 +1,102 @@
+{
+  "uid" : "256db9d64751671e",
+  "name" : "test_login",
+  "fullName" : "case.test_orderlater.Test_Orderlater#test_login",
+  "historyId" : "c0904d7ca63d819e3c4ae1cfc1aa7dd6",
+  "time" : {
+    "start" : 1617239862180,
+    "stop" : 1617239870407,
+    "duration" : 8227
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1617239860316,
+      "stop" : 1617239862179,
+      "duration" : 1863
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "18864a0c37c30d3b",
+      "name" : "log",
+      "source" : "18864a0c37c30d3b.txt",
+      "type" : "text/plain",
+      "size" : 112
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1617239874109,
+      "stop" : 1617239874189,
+      "duration" : 80
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_orderlater"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Orderlater"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "51611-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_orderlater"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "256db9d64751671e.json",
+  "parameterValues" : [ ]
+}

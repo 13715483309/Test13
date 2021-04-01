@@ -1,0 +1,86 @@
+{
+  "uid" : "6e12a55b852a95c2",
+  "name" : "test_login",
+  "fullName" : "case.test_address.Test_Address#test_login",
+  "historyId" : "518a59fe90e441b7bfc2902022bf77c5",
+  "time" : {
+    "start" : 1617239729433,
+    "stop" : 1617239737721,
+    "duration" : 8288
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1617239727380,
+      "stop" : 1617239729432,
+      "duration" : 2052
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1617239740627,
+      "stop" : 1617239740716,
+      "duration" : 89
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_address"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Address"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "51611-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e12a55b852a95c2.json",
+  "parameterValues" : [ ]
+}

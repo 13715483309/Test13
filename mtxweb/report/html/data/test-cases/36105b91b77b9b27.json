@@ -1,0 +1,102 @@
+{
+  "uid" : "36105b91b77b9b27",
+  "name" : "test_goto_answers",
+  "fullName" : "case.test_answers.Test_Answers#test_goto_answers",
+  "historyId" : "0b374ae2b5b57ef7c9edbb6790d67515",
+  "time" : {
+    "start" : 1617239755382,
+    "stop" : 1617239757642,
+    "duration" : 2260
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1617239740718,
+      "stop" : 1617239742522,
+      "duration" : 1804
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2d855893ce325416",
+      "name" : "log",
+      "source" : "2d855893ce325416.txt",
+      "type" : "text/plain",
+      "size" : 54
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1617239758516,
+      "stop" : 1617239758596,
+      "duration" : 80
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_answers"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Answers"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "51611-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_answers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36105b91b77b9b27.json",
+  "parameterValues" : [ ]
+}

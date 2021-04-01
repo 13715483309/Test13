@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_safe.py:17 初始化
+[32mINFO    [0m root:test_safe.py:21 登录

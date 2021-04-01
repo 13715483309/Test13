@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_footstep.py:18 初始化
+[32mINFO    [0m root:test_footstep.py:22 登录

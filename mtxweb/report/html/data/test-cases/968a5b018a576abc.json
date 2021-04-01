@@ -1,0 +1,102 @@
+{
+  "uid" : "968a5b018a576abc",
+  "name" : "test_login",
+  "fullName" : "case.test_footstep.Test_Footstep#test_login",
+  "historyId" : "b37a68ecc63f91eaeb739832319f4b14",
+  "time" : {
+    "start" : 1617239760412,
+    "stop" : 1617239768340,
+    "duration" : 7928
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1617239758599,
+      "stop" : 1617239760411,
+      "duration" : 1812
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fbbc2a791e6b5dd",
+      "name" : "log",
+      "source" : "fbbc2a791e6b5dd.txt",
+      "type" : "text/plain",
+      "size" : 102
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1617239771530,
+      "stop" : 1617239771616,
+      "duration" : 86
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_footstep"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Footstep"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "51611-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_footstep"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "968a5b018a576abc.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,159 @@
+{
+  "uid" : "af1881321929ffaa",
+  "name" : "test_case_1",
+  "fullName" : "case.test_address.Test_Address#test_case_1",
+  "historyId" : "3454b25487d38c25782d96a37fe80a3c",
+  "time" : {
+    "start" : 1617239740139,
+    "stop" : 1617239740574,
+    "duration" : 435
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: Could not locate element with visible text: 内蒙古自治区",
+  "statusTrace" : "self = <test_address.Test_Address object at 0x7fcb447a9a00>\n\n    def test_case_1(self):\n        # name = self.adrobj.address()\n        # eles = self.adrobj.dev.find_elements_by_xpath(\"//span[@class='user']\")\n        # lst = []\n        # for i in eles:\n        #     lst.append(i.text)\n        # print(lst)\n        # assert name in lst\n>       self.adrobj.address()\n\ncase/test_address.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npage/Mtx_Address.py:43: in address\n    Select(sel).select_by_visible_text('内蒙古自治区')\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.select.Select object at 0x7fcb447a9430>, text = '内蒙古自治区'\n\n    def select_by_visible_text(self, text):\n        \"\"\"Select all options that display text matching the argument. That is, when given \"Bar\" this\n           would select an option like:\n    \n            <option value=\"foo\">Bar</option>\n    \n           :Args:\n            - text - The visible text to match against\n    \n            throws NoSuchElementException If there is no option with specisied text in SELECT\n           \"\"\"\n        xpath = \".//option[normalize-space(.) = %s]\" % self._escapeString(text)\n        opts = self._el.find_elements(By.XPATH, xpath)\n        matched = False\n        for opt in opts:\n            self._setSelected(opt)\n            if not self.is_multiple:\n                return\n            matched = True\n    \n        if len(opts) == 0 and \" \" in text:\n            subStringWithoutSpace = self._get_longest_token(text)\n            if subStringWithoutSpace == \"\":\n                candidates = self.options\n            else:\n                xpath = \".//option[contains(.,%s)]\" % self._escapeString(subStringWithoutSpace)\n                candidates = self._el.find_elements(By.XPATH, xpath)\n            for candidate in candidates:\n                if text == candidate.text:\n                    self._setSelected(candidate)\n                    if not self.is_multiple:\n                        return\n                    matched = True\n    \n        if not matched:\n>           raise NoSuchElementException(\"Could not locate element with visible text: %s\" % text)\nE           selenium.common.exceptions.NoSuchElementException: Message: Could not locate element with visible text: 内蒙古自治区\n\n../../../opt/anaconda3/lib/python3.8/site-packages/selenium/webdriver/support/select.py:140: NoSuchElementException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1617239727380,
+      "stop" : 1617239729432,
+      "duration" : 2052
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1617239740627,
+      "stop" : 1617239740716,
+      "duration" : 89
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_address"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Address"
+  }, {
+    "name" : "host",
+    "value" : "chenjinfeideMacBook-Air.local"
+  }, {
+    "name" : "thread",
+    "value" : "51611-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "71d7526f5970d2c7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1616641082325,
+        "stop" : 1616641104629,
+        "duration" : 22304
+      }
+    }, {
+      "uid" : "5e01e70d9e6247a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616466699619,
+        "stop" : 1616466722389,
+        "duration" : 22770
+      }
+    }, {
+      "uid" : "9df83630b081353",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616036595873,
+        "stop" : 1616036621133,
+        "duration" : 25260
+      }
+    }, {
+      "uid" : "991dcc365c5d8790",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615858433437,
+        "stop" : 1615858453419,
+        "duration" : 19982
+      }
+    }, {
+      "uid" : "e611d4262e2f7ccc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615772675498,
+        "stop" : 1615772696196,
+        "duration" : 20698
+      }
+    }, {
+      "uid" : "3f63dd0758353815",
+      "status" : "broken",
+      "statusDetails" : "TypeError: __init__() missing 1 required positional argument: 'dev'",
+      "time" : {
+        "start" : 1615772294224,
+        "stop" : 1615772294224,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "da25ebeaaa0e7e72",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'dev' is not defined",
+      "time" : {
+        "start" : 1615772218978,
+        "stop" : 1615772218978,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4f315d014e12bb31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615300753655,
+        "stop" : 1615300779487,
+        "duration" : 25832
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "af1881321929ffaa.json",
+  "parameterValues" : [ ]
+}

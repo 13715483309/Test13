@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: Could not locate element with visible text: 内蒙古自治区",
       "children" : [ {
         "name" : "test_case_1",
-        "uid" : "106922b3ff35ce2",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "uid" : "af1881321929ffaa",
+        "parentUid" : "f9c97057baaaf7edf895af3b427c0146",
         "status" : "broken",
         "time" : {
-          "start" : 1616641082325,
-          "stop" : 1616641104629,
-          "duration" : 22304
+          "start" : 1617239740139,
+          "stop" : 1617239740574,
+          "duration" : 435
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+      "uid" : "f9c97057baaaf7edf895af3b427c0146"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

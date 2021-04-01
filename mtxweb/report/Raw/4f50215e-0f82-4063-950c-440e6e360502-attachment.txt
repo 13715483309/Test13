@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_footstep.py:31 足迹搜索
